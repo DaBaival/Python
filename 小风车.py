@@ -1,0 +1,33 @@
+import turtle
+import time
+t=turtle.Turtle()
+t.pensize(5)
+t.hideturtle()
+turtle.tracer(0)
+t.up()
+t.goto(0,100)
+t.down()
+t.seth(0)
+x=0
+time.sleep(0.1)
+for j in range(10000):
+    t.clear()
+    t.right(1)
+    for i in range(4):
+        t.right(90*(i-1))
+        t.fillcolor("red")
+        t.begin_fill()
+        t.fd(80)
+        t.left(120)
+        t.fd(160)
+        t.left(150)
+        t.fd(139)
+        t.end_fill()
+    turtle.update()
+turtle.up()
+turtle.goto(0,100)
+turtle.down()
+turtle.pensize(12)
+turtle.seth(-90)
+turtle.fd(230)
+turtle.update()
