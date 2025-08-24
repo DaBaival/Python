@@ -19,7 +19,6 @@
 
 <!-- Dock (大概可以这么称呼吧) -->
 <local:MyCard Margin="0,0,0,8">
-     
      <StackPanel Margin="24,12,24,10">
 <!--
           <Grid>
@@ -115,5 +114,6 @@
      </StackPanel>
 
 </local:MyCard>
+
 
 
