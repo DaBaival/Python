@@ -50,7 +50,7 @@
                Type="Clickable"
                Info="打开网页捷径页面。"
                EventType="打开帮助"
-               EventData="https://github.baival.fun/https://raw.githubusercontent.com/DaBaival/Python/refs/heads/main/urlshortcut/main.json" />
+               EventData="https://xget.baival.fun/gh/DaBaival/Python/raw/refs/heads/main/urlshortcut/main.json" />
      </StackPanel>
 </local:MyCard>
 <!--工具-->
@@ -114,6 +114,7 @@
      </StackPanel>
 
 </local:MyCard>
+
 
 
 
