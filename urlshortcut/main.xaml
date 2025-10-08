@@ -32,6 +32,7 @@
                 Margin="5,0,0,10" Height="30" Grid.Column="1" ToolTip="点我打开" Padding="2,0,2,0"
                 ColorType="Highlight" />
         </Grid>
+<!--
         <local:MyListItem Margin="0,0,2,0"
             Logo="pack://application:,,,/images/blocks/Grass.png" Title="刷新一下"
             EventType="刷新主页"
@@ -41,6 +42,7 @@
             ToolTip="来自微软必应。" EventType="打开网页"
             EventData="https://bing.biturl.top/?resolution=UHD&amp;format=image&amp;index=0&amp;mkt=zh-CN"
             Type="Clickable" />
+-->
     </StackPanel>
 </local:MyCard>
 <local:MyCard Margin="0,0,0,12" Title="常用网站" CanSwap="True" IsSwaped="False">
