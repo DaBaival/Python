@@ -7,7 +7,7 @@
 -->
 
 <!--欢迎页-->
-<local:MyCard Margin="0,-6,0,12" Title="欢迎"> <!--下面不是卡片，所以不用0,0,0,12-->
+<local:MyCard> <!--下面不是卡片，所以不用0,0,0,12-->
      <StackPanel Margin="24,35,24,15">
           <Calendar HorizontalAlignment="Center" Margin="0,12,0,10" />
           <!--“你知道吗”在启动游戏的时候会出现，所以我只在这里设置了回声洞-->
